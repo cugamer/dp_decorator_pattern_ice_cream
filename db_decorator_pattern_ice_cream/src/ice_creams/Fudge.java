@@ -11,7 +11,6 @@ public class Fudge extends MixIn {
 		return ingredient.getDescription() + ", creamy chocolate fudge";
 	}
 
-	@Override
 	public double cost() {
 		return ingredient.cost() + .40;
 	}

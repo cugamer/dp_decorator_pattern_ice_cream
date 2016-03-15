@@ -11,7 +11,6 @@ public class Blueberries extends MixIn {
 		return ingredient.getDescription() + ", blueberries";
 	}
 
-	@Override
 	public double cost() {
 		return ingredient.cost() + .40;
 	}
